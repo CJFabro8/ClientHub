@@ -1172,6 +1172,22 @@ Client:Button("Galaxy Sword",function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/CJFabro8/Client-Things/main/Galaxy%20Sword'),true))()
 end)
 
+Client:Button("Cross",function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/CJFabro8/Client-Things/main/Cross'),true))()
+end)
+
+Client:Button("Block Head",function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/CJFabro8/Client-Things/main/Block%20Head'),true))()
+end)
+
+Client:Button("Gift Card",function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/CJFabro8/Client-Things/main/Gift%20Card'),true))()
+end)
+
+Client:Button("Lollipop",function()
+    loadstring(game:HttpGet((''),true))()
+end)
+
 Spawn = Library:Tab("Spawn")
 
 Spawn:Button("spawn 8jf",function()
