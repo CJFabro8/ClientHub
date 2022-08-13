@@ -1184,9 +1184,14 @@ Client:Button("Gift Card",function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/CJFabro8/Client-Things/main/Gift%20Card'),true))()
 end)
 
-Client:Button("Lollipop",function()
+Client:Button("Lollipop(CANCELLED)",function()
     loadstring(game:HttpGet((''),true))()
 end)
+
+Client:Button("Fly Tool",function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/CJFabro8/Client-Things/main/Fly%20Tool'),true))()
+end)
+
 
 Spawn = Library:Tab("Spawn")
 
@@ -1216,6 +1221,26 @@ Skys:Button("Normal Sky",function()
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/CJFabro8/Sky/main/Normal%20Sky'),true))()
 end)
 
+Skys:Line()
+
 Skys:Button("The Rock Sky",function()
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/CJFabro8/Sky/main/The%20Rock'),true))()
+end)
+
+Skys:Button("Among us",function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/CJFabro8/Sky/main/Among%20Us'),true))()
+end)
+
+Skys:Button("Rick Roll",function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/CJFabro8/Sky/main/RickRoll'),true))()
+end)
+
+Models = Library:Tab("Models")
+
+Models:Button("Tornado",function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/CJFabro8/Models/main/Tornado'),true))()
+end)
+
+Models:Button("Birds",function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/CJFabro8/Models/main/Birds'),true))()
 end)
