@@ -1208,6 +1208,10 @@ Client:Button("Among us",function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/CJFabro8/Client-Things/main/Among%20us'),true))()
 end)
 
+Client:Button("Cheeseburger",function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/CJFabro8/Client-Things/main/cheeseburger'),true))()
+end)
+
 Spawn = Library:Tab("Spawn")
 
 Spawn:Button("spawn 8jf",function()
