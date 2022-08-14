@@ -1258,6 +1258,10 @@ Models:Button("Birds",function()
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/CJFabro8/Models/main/Birds'),true))()
 end)
 
-Models:Button("Tsunami",function()
+Models:Button("Shrinking Blue Zone",function()
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/CJFabro8/Models/main/Tsunami'),true))()
+end)
+
+Models:Button("House",function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/CJFabro8/Models/main/House'),true))()
 end)
