@@ -1200,6 +1200,10 @@ Client:Button("Floppa",function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/CJFabro8/Client-Things/main/Floppa'),true))()
 end)
 
+Client:Button("Talking Ben",function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/CJFabro8/Client-Things/main/Talking%20Ben'),true))()
+end)
+
 
 
 Spawn = Library:Tab("Spawn")
