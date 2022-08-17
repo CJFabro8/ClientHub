@@ -1271,3 +1271,7 @@ end)
 Models:Button("House",function()
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/CJFabro8/Models/main/House'),true))()
 end)
+
+Models:Button("Big Stand",function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/CJFabro8/Models/main/Big%20Stand'),true))()
+end)
