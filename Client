@@ -1034,6 +1034,12 @@ Main:Label("DO NOT IGNORE")
 
 Main:Label("ALL THE ITEMS IS CLIENT SO PEOPLE CANT SEE")
 
+Main:Button("Premium Access",function()
+	setclipboard("https://fadaasd.spixelpixele.repl.co/")
+end)
+
+Main:Label("PLS JOIN OUR DISCORD SERVER BEFORE PRESSING")
+
 Client = Library:Tab("Items")
 
 Client:Button("Gun",function()
@@ -1278,4 +1284,22 @@ end)
 
 Models:Button("Tank",function()
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/CJFabro8/Models/main/Tank'),true))()
+end)
+
+Models:Button("Fan(Premium)",function()
+	setclipboard("https://raw.githubusercontent.com/CJFabro8/Models/main/Fan")
+end)
+
+Credits = Library:Tab("Credits")
+
+Credits:Label("Credits To (Amonguscrewmatenotsus#9454)(Items Ideas)")
+
+Credits:Label("Credits To (The Holy Spirit#6336)(First To Join Server)")
+
+Credits:Label("Credits To (ThatOneGuy#0901)(First TO Try ClientHub)")
+
+Credits:Line()
+
+Credits:Button("Join Our Discord If You Want!",function()
+	setclipboard("https://discord.gg/fqYEfB2F")
 end)
