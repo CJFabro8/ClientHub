@@ -1286,10 +1286,6 @@ Models:Button("Tank",function()
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/CJFabro8/Models/main/Tank'),true))()
 end)
 
-Models:Button("Fan(Premium)",function()
-	setclipboard("https://raw.githubusercontent.com/CJFabro8/Models/main/Fan")
-end)
-
 Credits = Library:Tab("Credits")
 
 Credits:Label("Credits To (Amonguscrewmatenotsus#9454)(Items Ideas)")
