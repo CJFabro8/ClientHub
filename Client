@@ -1035,7 +1035,7 @@ Main:Label("DO NOT IGNORE")
 Main:Label("ALL THE ITEMS IS CLIENT SO PEOPLE CANT SEE")
 
 Main:Button("Premium Access",function()
-	setclipboard("https://fadaasd.spixelpixele.repl.co/")
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/CJFabro8/PREMIUM-CLIENT-HUB/main/Key%20System'),true))()
 end)
 
 Main:Label("PLS JOIN OUR DISCORD SERVER BEFORE PRESSING")
